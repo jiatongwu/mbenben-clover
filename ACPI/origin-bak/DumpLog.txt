@@ -1,0 +1,85 @@
+34:442  33:675  Found UEFI Acpi 2.0 RSDP at 9CFFE014
+34:442  0:000  Saving ACPI tables from RSDP 9CFFE014 to EFI\CLOVER\ACPI\origin ...
+34:442  0:000   9CFFE014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+34:447  0:005    (Xsdt: 9CFFE210, Rsdt: 9CFFE124)
+34:447  0:000    9CFFE210: 'XSDT', 'QUANTA', Rev: 1, Len: 188 -> XSDT.aml
+34:450  0:002    9CFFE124: 'RSDT', 'QUANTA', Rev: 1, Len: 112 -> RSDT.aml
+34:453  0:003    Tables in Xsdt: 19
+34:453  0:000    0. 9CFF8000: 'FACP', 'QUANTA', Rev: 5, Len: 268 -> FACP.aml
+34:455  0:002        (Dsdt: 9CFE6000, Facs: 9CFAB000, XDsdt: 9CFE6000, XFacs: 0)
+34:455  0:000        9CFE6000: 'DSDT', 'QUANTA', Rev: 1, Len: 58745 -> DSDT.aml
+34:485  0:029        9CFAB000: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+34:488  0:003    1. 9CFFD000: 'UEFI', 'QUANTA', Rev: 1, Len: 566 -> UEFI.aml
+34:491  0:003    2. 9CFFB000: 'FPDT', 'QUANTA', Rev: 1, Len: 68 -> FPDT.aml
+34:493  0:001    3. 9CFF9000: 'ASF!', 'QUANTA', Rev: 32, Len: 165 -> ASF!.aml
+34:496  0:002    4. 9CFF7000: 'HPET', 'QUANTA', Rev: 1, Len: 56 -> HPET.aml
+34:497  0:001    5. 9CFF6000: 'APIC', 'QUANTA', Rev: 3, Len: 140 -> APIC.aml
+34:499  0:001    6. 9CFF5000: 'MCFG', 'QUANTA', Rev: 1, Len: 60 -> MCFG.aml
+34:501  0:002    7. 9CFE5000: 'SLIC', 'QUANTA', Rev: 1, Len: 374 -> SLIC.aml
+34:504  0:002    8. 9CFE4000: 'SSDT', 'QUANTA', Rev: 1, Len: 2014 -> SSDT-0-QUANTA.aml
+34:508  0:004    9. 9CFE2000: 'BOOT', 'QUANTA', Rev: 1, Len: 40 -> BOOT.aml
+34:512  0:003    10. 9CFE1000: 'LPIT', 'QUANTA', Rev: 1, Len: 148 -> LPIT.aml
+34:514  0:002    11. 9CFDF000: 'ASPT', 'QUANTA', Rev: 7, Len: 52 -> ASPT.aml
+34:517  0:002    12. 9CFDE000: 'DBGP', 'QUANTA', Rev: 1, Len: 52 -> DBGP.aml
+34:519  0:001    13. 9CFD6000: 'SSDT', 'QUANTA', Rev: 1, Len: 1337 -> SSDT-1-QUANTA.aml
+34:522  0:003    14. 9CFD5000: 'SSDT', 'QUANTA', Rev: 1, Len: 2776 -> SSDT-2-QUANTA.aml (Found hidden SSDT 4 pcs)
+34:524  0:002        * 83CE1A98: '', '', Rev: 0, Len: 0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+34:524  0:000        * 9CE68618: 'SSDT', 'ApIst', Rev: 1, Len: 1450  53 53 44 54 AA 05 00 00 01 B9 50 6D 52 65 66 00 Internal length = 1450 -> SSDT-x2_0-ApIst.aml
+34:528  0:003        * 9CE68C18: 'SSDT', 'Cpu0Cst', Rev: 1, Len: 979  53 53 44 54 D3 03 00 00 01 99 50 6D 52 65 66 00 Internal length = 979 -> SSDT-x2_1-Cpu0Cst.aml
+34:531  0:003        * 9CE67D98: 'SSDT', 'ApCst', Rev: 1, Len: 281  53 53 44 54 19 01 00 00 01 D5 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x2_2-ApCst.aml
+34:610  0:078  
+34:610  0:000    15. 9CFD1000: 'SSDT', 'QUANTA', Rev: 1, Len: 14997 -> SSDT-3-QUANTA.aml
+34:619  0:008    16. 9CFCB000: 'SSDT', 'QUANTA', Rev: 1, Len: 15192 -> SSDT-4-QUANTA.aml
+34:621  0:002    17. 9CFD0000: 'BGRT', 'QUANTA', Rev: 1, Len: 56 -> BGRT.aml
+34:625  0:003    18. 9CFCF000: 'DMAR', 'QUANTA', Rev: 1, Len: 184 -> DMAR.aml
+34:627  0:002    Tables in Rsdt: 19
+34:627  0:000    0. 9CFF8000: 'FACP', 'QUANTA', Rev: 5, Len: 268
+34:627  0:000        (Dsdt: 9CFE6000, Facs: 9CFAB000, XDsdt: 9CFE6000, XFacs: 0)
+34:627  0:000        9CFE6000: 'DSDT', 'QUANTA', Rev: 1, Len: 58745
+34:628  0:001        9CFAB000: 'FACS', Ver: 2, Len: 64
+34:628  0:000    1. 9CFFD000: 'UEFI', 'QUANTA', Rev: 1, Len: 566
+34:628  0:000    2. 9CFFB000: 'FPDT', 'QUANTA', Rev: 1, Len: 68
+34:628  0:000    3. 9CFF9000: 'ASF!', 'QUANTA', Rev: 32, Len: 165
+34:628  0:000    4. 9CFF7000: 'HPET', 'QUANTA', Rev: 1, Len: 56
+34:628  0:000    5. 9CFF6000: 'APIC', 'QUANTA', Rev: 3, Len: 140
+34:628  0:000    6. 9CFF5000: 'MCFG', 'QUANTA', Rev: 1, Len: 60
+34:628  0:000    7. 9CFE5000: 'SLIC', 'QUANTA', Rev: 1, Len: 374
+34:628  0:000    8. 9CFE4000: 'SSDT', 'QUANTA', Rev: 1, Len: 2014
+34:628  0:000    9. 9CFE2000: 'BOOT', 'QUANTA', Rev: 1, Len: 40
+34:628  0:000    10. 9CFE1000: 'LPIT', 'QUANTA', Rev: 1, Len: 148
+34:628  0:000    11. 9CFDF000: 'ASPT', 'QUANTA', Rev: 7, Len: 52
+34:628  0:000    12. 9CFDE000: 'DBGP', 'QUANTA', Rev: 1, Len: 52
+34:628  0:000    13. 9CFD6000: 'SSDT', 'QUANTA', Rev: 1, Len: 1337
+34:628  0:000    14. 9CFD5000: 'SSDT', 'QUANTA', Rev: 1, Len: 2776
+34:628  0:000    15. 9CFD1000: 'SSDT', 'QUANTA', Rev: 1, Len: 14997
+34:628  0:000    16. 9CFCB000: 'SSDT', 'QUANTA', Rev: 1, Len: 15192
+34:628  0:000    17. 9CFD0000: 'BGRT', 'QUANTA', Rev: 1, Len: 56
+34:628  0:000    18. 9CFCF000: 'DMAR', 'QUANTA', Rev: 1, Len: 184
+34:628  0:000  Found UEFI Acpi 1.0 RSDP at 9CFFE000
+34:628  0:000  Printing ACPI tables from RSDP 9CFFE000 ...
+34:628  0:000   9CFFE000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+34:628  0:000    (Rsdt: 9CFFE038)
+34:628  0:000    9CFFE038: 'RSDT', 'QUANTA', Rev: 1, Len: 112
+34:628  0:000    Tables in Rsdt: 19
+34:628  0:000    0. 9CFF8000: 'FACP', 'QUANTA', Rev: 5, Len: 268
+34:628  0:000        (Dsdt: 9CFE6000, Facs: 9CFAB000, XDsdt: 9CFE6000, XFacs: 0)
+34:628  0:000        9CFE6000: 'DSDT', 'QUANTA', Rev: 1, Len: 58745
+34:630  0:001        9CFAB000: 'FACS', Ver: 2, Len: 64
+34:630  0:000    1. 9CFFD000: 'UEFI', 'QUANTA', Rev: 1, Len: 566
+34:630  0:000    2. 9CFFB000: 'FPDT', 'QUANTA', Rev: 1, Len: 68
+34:630  0:000    3. 9CFF9000: 'ASF!', 'QUANTA', Rev: 32, Len: 165
+34:630  0:000    4. 9CFF7000: 'HPET', 'QUANTA', Rev: 1, Len: 56
+34:630  0:000    5. 9CFF6000: 'APIC', 'QUANTA', Rev: 3, Len: 140
+34:630  0:000    6. 9CFF5000: 'MCFG', 'QUANTA', Rev: 1, Len: 60
+34:630  0:000    7. 9CFE5000: 'SLIC', 'QUANTA', Rev: 1, Len: 374
+34:630  0:000    8. 9CFE4000: 'SSDT', 'QUANTA', Rev: 1, Len: 2014
+34:630  0:000    9. 9CFE2000: 'BOOT', 'QUANTA', Rev: 1, Len: 40
+34:630  0:000    10. 9CFE1000: 'LPIT', 'QUANTA', Rev: 1, Len: 148
+34:630  0:000    11. 9CFDF000: 'ASPT', 'QUANTA', Rev: 7, Len: 52
+34:630  0:000    12. 9CFDE000: 'DBGP', 'QUANTA', Rev: 1, Len: 52
+34:630  0:000    13. 9CFD6000: 'SSDT', 'QUANTA', Rev: 1, Len: 1337
+34:630  0:000    14. 9CFD5000: 'SSDT', 'QUANTA', Rev: 1, Len: 2776
+34:630  0:000    15. 9CFD1000: 'SSDT', 'QUANTA', Rev: 1, Len: 14997
+34:630  0:000    16. 9CFCB000: 'SSDT', 'QUANTA', Rev: 1, Len: 15192
+34:630  0:000    17. 9CFD0000: 'BGRT', 'QUANTA', Rev: 1, Len: 56
+34:630  0:000    18. 9CFCF000: 'DMAR', 'QUANTA', Rev: 1, Len: 184

@@ -1,0 +1,3 @@
+External(_SB.PCI0.LPCB.H_EC.ECWT, MethodObj, 2)
+External(_SB.PCI0.LPCB.H_EC.ECRD, MethodObj, 1)
+External(_SB.PCI0.LPCB.H_EC.ECMD, MethodObj, 1)
