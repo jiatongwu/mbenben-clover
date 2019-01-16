@@ -100,7 +100,7 @@
 			<key>Entries</key>
 			<true/>
 			<key>Legacy</key>
-			<false/>
+			<true/>
 			<key>Tool</key>
 			<true/>
 		</dict>
